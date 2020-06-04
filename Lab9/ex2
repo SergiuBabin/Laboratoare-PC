@@ -1,0 +1,221 @@
+a)
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig A single-v4.protocoale.xyz +short
+127.0.0.1
+
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig A single.protocoale.xyz +short
+127.0.0.1
+
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig A multi-v4.protocoale.xyz +short
+127.4.4.4
+127.2.2.2
+127.1.1.1
+127.3.3.3
+
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig A multi.protocoale.xyz +short
+127.2.2.2
+127.1.1.1
+127.4.4.4
+127.3.3.3
+
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig A dorinel.protocoale.xyz +short
+127.42.0.0
+
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig A pc.protocoale.xyz  +short
+pcom.protocoale.xyz.
+protocoale.protocoale.xyz.
+127.42.42.42
+
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig A pcom.protocoale.xyz  +short
+protocoale.protocoale.xyz.
+127.42.42.42
+
+
+
+b)
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig AAAA single-v6.protocoale.xyz 
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> AAAA single-v6.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40999
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single-v6.protocoale.xyz.	IN	AAAA
+
+;; ANSWER SECTION:
+single-v6.protocoale.xyz. 300	IN	AAAA	::1
+
+;; Query time: 206 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 17:35:04 EEST 2020
+;; MSG SIZE  rcvd: 81
+
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig AAAA single.protocoale.xyz 
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> AAAA single.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47409
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single.protocoale.xyz.		IN	AAAA
+
+;; ANSWER SECTION:
+single.protocoale.xyz.	300	IN	AAAA	::1
+
+;; Query time: 136 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 17:34:41 EEST 2020
+;; MSG SIZE  rcvd: 78
+
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig AAAA multi-v6.protocoale.xyz 
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> AAAA multi-v6.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39323
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi-v6.protocoale.xyz.	IN	AAAA
+
+;; ANSWER SECTION:
+multi-v6.protocoale.xyz. 300	IN	AAAA	::2
+multi-v6.protocoale.xyz. 300	IN	AAAA	::4
+multi-v6.protocoale.xyz. 300	IN	AAAA	::1
+multi-v6.protocoale.xyz. 300	IN	AAAA	::3
+
+;; Query time: 117 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 17:35:44 EEST 2020
+;; MSG SIZE  rcvd: 164
+
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig AAAA multi.protocoale.xyz 
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> AAAA multi.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24737
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi.protocoale.xyz.		IN	AAAA
+
+;; ANSWER SECTION:
+multi.protocoale.xyz.	300	IN	AAAA	::3
+multi.protocoale.xyz.	300	IN	AAAA	::1
+multi.protocoale.xyz.	300	IN	AAAA	::2
+multi.protocoale.xyz.	300	IN	AAAA	::4
+
+;; Query time: 191 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 17:36:12 EEST 2020
+;; MSG SIZE  rcvd: 161
+
+c)
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig MX protocoale.xyz
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> MX protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54514
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;protocoale.xyz.			IN	MX
+
+;; ANSWER SECTION:
+protocoale.xyz.		300	IN	MX	30 alt3.gmail-smtp-in.l.google.com.
+protocoale.xyz.		300	IN	MX	20 alt2.gmail-smtp-in.l.google.com.
+protocoale.xyz.		300	IN	MX	10 alt1.gmail-smtp-in.l.google.com.
+
+;; Query time: 101 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 17:36:56 EEST 2020
+;; MSG SIZE  rcvd: 132
+
+
+d)
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig single-v4.protocoale.xyz +noall +authority
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> single-v4.protocoale.xyz +noall +authority
+;; global options: +cmd
+
+e)
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig @1.11.67.92 google.com
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> @1.11.67.92 google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25805
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 2e0259cd2b39e0cb7133589a5e95d1c9694eb30a18a55e70 (good)
+;; QUESTION SECTION:
+;google.com.			IN	A
+
+;; ANSWER SECTION:
+google.com.		93	IN	A	172.217.174.206
+
+;; Query time: 2753 msec
+;; SERVER: 1.11.67.92#53(1.11.67.92)
+;; WHEN: Tue Apr 14 18:07:57 EEST 2020
+;; MSG SIZE  rcvd: 83
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig @125.208.213.151 google.com
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> @125.208.213.151 google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44261
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;google.com.			IN	A
+
+;; ANSWER SECTION:
+google.com.		37	IN	A	216.58.220.206
+
+;; Query time: 2138 msec
+;; SERVER: 125.208.213.151#53(125.208.213.151)
+;; WHEN: Tue Apr 14 18:09:51 EEST 2020
+;; MSG SIZE  rcvd: 55
+
+f) nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig -f queries.txt > digForAll.txt 
+Am inclus fisierele in arhiva
+
+g)
+nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig @potato.dfilip.xyz dorinel.protocoale.xyz +noall +answer +trace
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> @potato.dfilip.xyz dorinel.protocoale.xyz +noall +answer +trace
+; (1 server found)
+;; global options: +cmd
+;; Received 56 bytes from 82.78.81.172#53(potato.dfilip.xyz) in 61 ms
+
+
+h)nicoletasima@ubuntu:~/Desktop/Facultate/Anul2/PC/lab9-skel$ dig -x 185.60.218.35 +noall +answer
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> -x 185.60.218.35 +noall +answer
+;; global options: +cmd
+35.218.60.185.in-addr.arpa. 2934 IN	PTR	edge-star-mini-shv-01-otp1.facebook.com.
+
+i)
+
+

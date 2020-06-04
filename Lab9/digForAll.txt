@@ -1,0 +1,200 @@
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> single-v4.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57039
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single-v4.protocoale.xyz.	IN	A
+
+;; ANSWER SECTION:
+single-v4.protocoale.xyz. 202	IN	A	127.0.0.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 69
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> single-v6.protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61099
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single-v6.protocoale.xyz.	IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 53
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> single.protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3515
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single.protocoale.xyz.		IN	A
+
+;; ANSWER SECTION:
+single.protocoale.xyz.	203	IN	A	127.0.0.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 66
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> dorinel.protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7940
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dorinel.protocoale.xyz.		IN	A
+
+;; ANSWER SECTION:
+dorinel.protocoale.xyz.	203	IN	A	127.42.0.0
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 67
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> multi-v4.protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1386
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi-v4.protocoale.xyz.	IN	A
+
+;; ANSWER SECTION:
+multi-v4.protocoale.xyz. 203	IN	A	127.1.1.1
+multi-v4.protocoale.xyz. 203	IN	A	127.2.2.2
+multi-v4.protocoale.xyz. 203	IN	A	127.3.3.3
+multi-v4.protocoale.xyz. 203	IN	A	127.4.4.4
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 116
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> multi-v6.protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50565
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi-v6.protocoale.xyz.	IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 52
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> multi.protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23657
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi.protocoale.xyz.		IN	A
+
+;; ANSWER SECTION:
+multi.protocoale.xyz.	203	IN	A	127.3.3.3
+multi.protocoale.xyz.	203	IN	A	127.2.2.2
+multi.protocoale.xyz.	203	IN	A	127.1.1.1
+multi.protocoale.xyz.	203	IN	A	127.4.4.4
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 113
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> pc.protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2854
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;pc.protocoale.xyz.		IN	A
+
+;; ANSWER SECTION:
+pc.protocoale.xyz.	203	IN	CNAME	pcom.protocoale.xyz.
+pcom.protocoale.xyz.	203	IN	CNAME	protocoale.protocoale.xyz.
+protocoale.protocoale.xyz. 203	IN	A	127.42.42.42
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 106
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> pcom.protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18367
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;pcom.protocoale.xyz.		IN	A
+
+;; ANSWER SECTION:
+pcom.protocoale.xyz.	203	IN	CNAME	protocoale.protocoale.xyz.
+protocoale.protocoale.xyz. 203	IN	A	127.42.42.42
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 89
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> protocoale.protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46952
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;protocoale.protocoale.xyz.	IN	A
+
+;; ANSWER SECTION:
+protocoale.protocoale.xyz. 203	IN	A	127.42.42.42
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 70
+
+; <<>> DiG 9.11.3-1ubuntu1.11-Ubuntu <<>> protocoale.xyz
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61642
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;protocoale.xyz.			IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Tue Apr 14 18:15:31 EEST 2020
+;; MSG SIZE  rcvd: 43
+
